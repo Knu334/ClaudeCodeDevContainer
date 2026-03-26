@@ -44,6 +44,10 @@ git clone <新規リポジトリのGithubリンク>
 7. VS Codeでローカルリポジトリを開く。
 8. コンテナーで現在のフォルダを開く を実行する。
 9. ターミナルを開くとClaude Codeが使用可能となる。
+10. Serena MCPのセットアップをClaude Codeに実行させる。
+```
+mcp__serena__onboardingを実行して
+```
 
 ## テンプレートの更新取り込み方法
 
