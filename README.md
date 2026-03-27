@@ -1,6 +1,6 @@
 # Claude Code DevContainer
 
-TypeScriptを使用したClaude Code向けDevContainerテンプレート。  
+TypeScriptを使用したClaude Codeプロジェクト向けDevContainerテンプレート。  
 デフォルトで[Github MCP](https://github.com/github/github-mcp-server)（Github操作用）と[Serena MCP](https://github.com/oraios/serena)（トークン消費改善用）をHTTPモードでセットアップする。
 
 ## 前提要件
