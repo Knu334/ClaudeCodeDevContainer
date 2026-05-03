@@ -47,8 +47,10 @@ ENV DEVCONTAINER=true
 # Create workspace and config directories and set permissions
 RUN mkdir -p /workspace /home/node/.claude && \
   mkdir -p /workspace /home/node/.codex && \
+  mkdir -p /workspace /home/node/.agents && \
   chown -R node:node /workspace /home/node/.claude && \
-  chown -R node:node /workspace /home/node/.codex
+  chown -R node:node /workspace /home/node/.codex && \
+  chown -R node:node /workspace /home/node/.agents
 
 WORKDIR /workspace
 
